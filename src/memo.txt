@@ -1,0 +1,12 @@
+・起動
+npm run dev
+
+npm i -D tsx
+npm uninstall -D ts-node
+
+
+・prisma
+
+npx prisma init --datasource-provider sqlite
+npx prisma migrate dev --name init
+npx prisma studio
